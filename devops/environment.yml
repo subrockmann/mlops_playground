@@ -13,6 +13,7 @@ dependencies:
   - scikit-learn
   - matplotlib
   - pillow
+  - python-dotenv
   - cudatoolkit=11.2
   - cudnn=8.1.0
   - pip
