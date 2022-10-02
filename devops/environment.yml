@@ -1,0 +1,29 @@
+name: tiny_cnn
+
+channels:
+  - conda-forge
+  - anaconda
+
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - jupyterlab-git
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - pillow
+  - cudatoolkit=11.2
+  - cudnn=8.1.0
+  - pip
+  - pip:
+    - tensorflow
+    - tensorboard
+    - tensorflow_datasets
+    - tensorflow-model-optimization
+    - tensorboard_plugin_profile
+    # - jupyterlab_tensorboard
+    - jupyterlab-code-formatter
+    - mlflow
+
+
