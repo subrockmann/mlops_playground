@@ -134,3 +134,6 @@ mlartifacts/
 outputs/
 mlruns.db/
 ec2-18-194-137-129.eu-central-1.compute.amazonaws.com/
+
+# Tensorboard
+logs/
